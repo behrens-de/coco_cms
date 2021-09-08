@@ -9,5 +9,15 @@
         "route": "test",
         "status": 1, 
         "label": "test"
+    },
+    {
+        "route": "demo/params|a,a,b",
+        "status": 1, 
+        "label": "test"
+    },
+    {
+        "route": "test/test/test|a,b,c,d",
+        "status": 1, 
+        "label": "test"
     }
 ]

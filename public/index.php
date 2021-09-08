@@ -10,15 +10,9 @@ include __DIR__ . '/../private/include.php';  // Includes werden geladen
 
 //echo DOMAIN.'::'.REQUEST;
 //var_dump($pages);
-
-
-
-
 // echo strlen(REQUEST);
 // echo REQUEST.'<hr>';
 // echo 'RESPONSE CODE: '.http_response_code();
 
-$router = new \Coco\Pages(); 
+$router = new \Coco\Router(); 
 $router->indexRoutes();
-
-
