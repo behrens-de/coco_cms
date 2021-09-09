@@ -1,0 +1,13 @@
+[
+    {
+        "route": "",
+        "status": 1, 
+        "label": "Home",
+        "template": "Home"
+    },
+    {
+        "route": "data|a",
+        "status": 1, 
+        "label": "Home"
+    }  
+]

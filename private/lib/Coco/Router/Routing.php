@@ -59,9 +59,9 @@ class Routing
     }
 
 
-    public function run()
+    public function run($type = 'main_pages')
     {
-        $pages = \Coco\Data::getJSON('pages'); // Laden der Seiten 
+        $pages = \Coco\Data::getJSON($type); // Laden der Seiten 
 
         $countRequest = $this->countRequest();
 
