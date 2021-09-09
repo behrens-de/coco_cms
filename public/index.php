@@ -14,5 +14,12 @@ include __DIR__ . '/../private/include.php';  // Includes werden geladen
 // echo REQUEST.'<hr>';
 // echo 'RESPONSE CODE: '.http_response_code();
 
-$router = new \Coco\Router(); 
-$router->indexRoutes();
+use \Coco\Router as CocoRouter;
+
+$routing = new CocoRouter\Routing();
+$handleRoute = new CocoRouter\Handle($routing->run());
+
+$routeInfo = $handleRoute->info();
+
+echo $routeInfo;
+

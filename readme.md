@@ -34,8 +34,8 @@ all routes and page information are in the pages.json file. There is the possibi
 ```js
 { 
     "id": "zet373g" // random ID
-    "route": "test", // static route
-    "route":"test:param1:param:...", // dynamic route
+    "route": "demo/demo", // static route
+    "route":"demo/params|p1,p2,p3", // dynamic route
     "status": 1, // 0 = not live | 1 = online
     "label": "test",
     ...

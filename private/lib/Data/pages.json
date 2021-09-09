@@ -8,16 +8,46 @@
     {
         "route": "test",
         "status": 1, 
-        "label": "test"
+        "label": "Page Test 1"
     },
     {
-        "route": "demo/params|a,a,b",
+        "route": "demo/params",
         "status": 1, 
-        "label": "test"
+        "label": "Page Test Params 1"
     },
     {
-        "route": "test/test/test|a,b,c,d",
+        "route": "demo/params|g",
         "status": 1, 
-        "label": "test"
+        "label": "Page Test Params 1"
+    },
+    {
+        "route": "demo/params|p1,p2,p3",
+        "status": 1, 
+        "label": "Page Test Params 1"
+    },
+    {
+        "route": "test/test|p1,p2,p3,p4",
+        "status": 1, 
+        "label": "Page Test Params 2"
+    },
+    {
+        "route": "blog",
+        "status": 1, 
+        "label": "Page Test Params 2"
+    },
+    {
+        "route": "blog|area",
+        "status": 1, 
+        "label": "Page Test Params 2"
+    },
+    {
+        "route": "blog|area,article",
+        "status": 1, 
+        "label": "Page Test Params 2"
+    },
+    {
+        "route": "test/test|p3,p2,p1",
+        "status": 1, 
+        "label": "Page Test Params 3"
     }
 ]
