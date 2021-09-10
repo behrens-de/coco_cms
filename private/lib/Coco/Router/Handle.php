@@ -14,6 +14,11 @@ class Handle
     {
         return '<pre>' . var_export($this->route, true) . '</pre>';
     }
+    public function data(): array
+    {
+        return $this->route;
+    }
+    
 
     public function getRoute()
     {

@@ -6,8 +6,9 @@
         "template": "Home"
     },
     {
-        "route": "data|a",
+        "route": "data",
         "status": 1, 
-        "label": "Home"
+        "label": "Data",
+        "template": "default"
     }  
 ]
