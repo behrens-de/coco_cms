@@ -2,13 +2,15 @@
     {
         "route": "",
         "status": 1, 
-        "label": "Home",
-        "template": "Home"
+        "label": "default",
+        "template": "default"
+        
     },
     {
         "route": "test",
         "status": 1, 
-        "label": "Page Test 1"
+        "label": "Page Test 1",
+        "template": "default"
     },
     {
         "route": "demo/params",

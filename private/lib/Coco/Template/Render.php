@@ -10,8 +10,8 @@ class Render
 
     public function run($arg)
     {
-        $tplName =  $arg["page"]->template . $this->tplExtension;
-        $template = $this->load($tplName);
+        $tplName =  $arg["page"]->template;
+        $template = $this->load($tplName . $this->tplExtension);
         return $this->rendering($template);
     }
 
@@ -79,12 +79,26 @@ class Render
     # Load the Template
     function load(string $file): string
     {
-
-        $tplname = "coco";
         $path = $this->tplFolder . TEMPLATE . "/$file";
         if (file_exists($path)) {
             return file_get_contents($path, true);
         }
-        return "<pre>LOADING ERROR: inside the Template {" . TEMPLATE . "} <b>$file</b> does not exist</pre>";
+
+        // 404 Error
+        return $this->errorPage($file);
+    }
+
+    function errorPage($file){
+
+
+        // if(strlen($file)<(strlen($this->tplExtension)+1)){
+        //     $error = \Coco\Info\Error::template(101, "Dieser Seite wurde noch kein Template zugeorndet");
+        // }
+
+        // return \Coco\Info\Error::template(100, "Es existiert keine Datei mit dem Namen <b>$file</b> im Templatordner (<b>".TEMPLATE."</b>)");
+        // die();
+        \Coco\Pages::error404();
+       //return  $this->load('404.html');
+       die();
     }
 }

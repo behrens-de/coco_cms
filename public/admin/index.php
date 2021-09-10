@@ -10,8 +10,6 @@ include __DIR__ . '/../../private/include.php'; // Includes werden geladen
 use \Coco\Router as CocoRouter;
 use \Coco\Template as CocoTemplate;
 
-use function PHPSTORM_META\elementType;
-
 $routing = new CocoRouter\Routing();
 $handleRoute = new CocoRouter\Handle($routing->run('admin_pages'));
 $template = new CocoTemplate\Render();
