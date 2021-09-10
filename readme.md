@@ -48,9 +48,9 @@ all routes and page information are in the pages.json file. There is the possibi
 
 
 ### Error Codes
-100-199 = Template Errors
-100 = Selected template does not exist in the template folder
-101 = No template was stored in the main_pages.json file for the route 
+100-199 = Template Errors&nbsp;
+- 100 = Selected template does not exist in the template folder&nbsp;
+- 101 = No template was stored in the main_pages.json file for the route &nbsp;
 
 
 
