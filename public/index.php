@@ -7,7 +7,6 @@ define('PREFIX', 'public'); // Wird aus dem Request der URL entfernt
 include __DIR__ . '/../private/autoload.php'; // Autoloader für geladen
 include __DIR__ . '/../private/include.php';  // Includes werden geladen
 
-
 use \Coco\Router as CocoRouter;
 use \Coco\Template as CocoTemplate;
 
