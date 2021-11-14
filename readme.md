@@ -1,6 +1,6 @@
 # COCO CMS
 ## Status:
-this project is currently under construction and is scheduled to enter the alpha phase by the end of september 2021
+this project is currently under construction and is scheduled to enter the alpha phase by the end of 2021
 
 ## Description:
 coco cms is a small content management system that helps the user to create individual web pages quickly and without unnecessary overhead and thus also helps not to artificially increase the loading time.
